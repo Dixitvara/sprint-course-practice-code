@@ -30,9 +30,9 @@ public class StudentController {
         );
 //         both way are good for returning method response
 //        return new ResponseEntity<>(student, HttpStatus.OK);
-//        return ResponseEntity.ok(student);
+        return ResponseEntity.ok(student);
 //     custom header for response
-        return ResponseEntity.ok().header("custom-header", "dixit").body(student);
+//        return ResponseEntity.ok().header("custom-header", "dixit").body(student);
     }
 
     // list of student api for http://localhost:8080/students
